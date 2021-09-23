@@ -8,6 +8,7 @@ int main()
     int no_of_days;
 
     getline(cin,day_start);
+    
     cin>> no_of_days;
     
     int no_of_Sun = 0;
