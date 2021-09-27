@@ -50,10 +50,6 @@ int main()
 
     int len = strVect.size();
 
-
-
-
-
     for(int i =0; i < len; i++){
         
         string temp = strVect[i];
