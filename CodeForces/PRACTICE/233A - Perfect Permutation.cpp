@@ -15,19 +15,21 @@ using namespace std;
 int main()
 {
     fast; //fast execution for cp
-    string ip1, ip2;
-    cin>>ip1>>ip2;
-    
-    string ans="";
-    
-    for(int i=0; i<ip1.length();i++){
-        if(ip1[i] == ip2[i])
-            ans+="0";
-        else
-            ans+="1";
-    }
-    
-    cout<<ans<<endl;
 
+    int n;
+    cin >> n;
+    if (n % 2 == 1)
+    {
+        cout << -1 << endl;
+    }
+    else
+    {
+        cout << "2 1";
+        for (int i = 3; i < n; i += 2)
+        {
+            cout << " " << i + 1 << " " << i;
+        }
+        cout << endl;
+    }
     return 0;
 }
