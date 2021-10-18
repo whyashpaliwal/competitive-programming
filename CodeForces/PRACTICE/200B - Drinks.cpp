@@ -1,6 +1,6 @@
 /*
 *author: yashpaliwal
-*submission: 
+*codeforces practice problem 
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,12 +11,24 @@ using namespace std;
     cin.tie(0);                       \
     cout.tie(0);
 
-
 int main()
 {
     fast; //fast execution for cp
 
- 
- 
+    int n;
+    cin >> n;
+
+    double num = 0.0;
+    double temp;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> temp;
+        num += temp;
+    }
+
+    double deno = n * 1.0;
+
+    cout << (num / deno) << endl;
+
     return 0;
 }
