@@ -10,7 +10,7 @@ using namespace std;
     ios_base::sync_with_stdio(false); \
     cin.tie(0);                       \
     cout.tie(0);
-
+    
 
 int main()
 {
@@ -34,7 +34,7 @@ int main()
             }
         }
         
-        cout<<count<<endl;
+            t<<count<<endl;
 
     }
 
